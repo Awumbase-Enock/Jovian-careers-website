@@ -3,56 +3,33 @@
   <head>
     <title>Jovian Careers</title>
     <style>
-      *{
-        background-color: white;
-      
-        font-family: arial;
-      }
-      h1 {
-         font-weight: 50px;
-        font-family: roboto;
-        text-align: center;
-        color: rgb(170, 70, 70);
-        
-      }  
-      #banner{
-        width:100%;
-        height: 250px;
-        object-fit:cover;
-      }
-      h2{
-        rgb(50, 50, 50);
-        font-family: arial;
+     #banner{
+       width: 100%;
+       height: 250px;
+       object-fit:cover;
+     }
+      #button{
         text-align: center;
       }
-      #container{
-        max-width: 720px;
-        margin: 0 auto;
+      .heading{
+        text-align:center;
       }
-      .bodytext{
-        font-family: roboto;
-        color: rgb(60,40 50);
-        font-size: 20px;
-      }
-    #button{
-      text-align: center;
-      font-family: arial;
-    }
-    </style>
+  </style>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
-  <body>
-    <div id="container">
-    <h1>JOVIAN CAREERS</h1>
-    <img id="banner" src="https://jovian-careers-website--enockawumbase.repl.co/static/banner.jpg">
+  <body style="background-color:#E8E4C9">
+    <div class="container">
+    <h1 class="heading mt-3 mb-2">JOVIAN CAREERS</h1>
+    <img class="img-fluid" id="banner"src="https://jovian-careers-website--enockawumbase.repl.co/static/banner.jpg">
 
-    <h2>About Jovian</h2>
-    <p class="bodytext">
+    <h2 class="heading mt-2 mb-2">About Jovian</h2>
+    <p class="lead">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
     </p>
-    <h2>Open Positions</h2>
-    <p class="bodytext">todo-show the jobs here</p>
+    <h2 class="heading">Open Positions</h2>
+    <p class="lead">todo-show the jobs here</p>
       <div id="button">
-        <button>Contact Us</button>
+        <button class="btn btn-primary mb-2">Contact Us</button>
       <p>Copyright 2023, Enock.</p>
       </div>
     </div>
